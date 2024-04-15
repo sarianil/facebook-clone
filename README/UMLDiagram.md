@@ -1,2 +1,2 @@
 ##UML Diagram
-![UML Diagram](Resimler/facebook-clone-main/UMLDiagram.png)
+![UML Diagram](C:\Users\Umut\Pictures\facebook-clone-main\UMLDiagram.png)
