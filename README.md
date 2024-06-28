@@ -7,3 +7,5 @@ Profil düzenleme kısmı çalışıyor.
 Post atılabiliyor, postlarda tarih var.
 Yorum yapılabiliyor. Sayı güncellemesi var.
 Beğeni atılabiliyor. Sayı güncellemesi var.
+Database'i vercel'e bağlayamadığımız için local üzerinden çekilen video linki aşağıdadır.
+https://youtu.be/pYOU3x1LP8g
