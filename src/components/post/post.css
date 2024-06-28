@@ -1,0 +1,131 @@
+.postTop {
+  display: flex;
+}
+.postTopLeft {
+  flex: 2;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.postTopRight {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  float: right;
+}
+.postUsername {
+  font-weight: 500;
+  cursor: pointer;
+}
+.postDate {
+  font-size: 14px;
+  font-weight: 100;
+}
+.postText {
+  font-size: 15px;
+}
+.postProfileImage {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.postBottom {
+  display: flex;
+  align-items: center;
+}
+.postBottomLeft {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.likeIcon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.likeIconCont {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.likeIconCont:hover {
+  background-color: gainsboro;
+}
+.likeIconCont:active {
+  background-color: rgb(212, 203, 203);
+}
+.post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.postWrapper {
+  background-color: white;
+  width: 90%;
+  -webkit-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.postImage {
+  height: 400px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.postLikeCounter {
+  font-size: 15px;
+}
+
+.postCommentText {
+  cursor: pointer;
+}
+
+.post__send__comment {
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.post__send__comment__input {
+  height: 40px;
+  width: 60%;
+  outline: 0;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.post__send__comment__btn {
+  padding: 0.7rem 1.5rem;
+  background-color: #1877f2;
+  border-radius: 10px;
+  color: white;
+}
+.post__comments {
+  display: flex;
+
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.post__comments__box {
+  display: flex;
+  justify-content: space-between;
+}
